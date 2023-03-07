@@ -2,13 +2,6 @@
   "name": "my-rollup",
   "version": "1.0.0",
   "description": "这是一个测试rollup使用demo",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "browser": "dist/index.umd.js",
-  "scripts": {
-    "build:test": "rollup -c --environment BUILD:development",
-    "build": "rollup -c --environment BUILD:production"
-  },
   "keywords": [
     "前端",
     "rollup"
@@ -17,6 +10,13 @@
   "files": [
     "dist"
   ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "build:test": "rollup -c --environment BUILD:development",
+    "build": "rollup -c --environment BUILD:production"
+  },
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
