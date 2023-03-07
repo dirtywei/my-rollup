@@ -19,7 +19,7 @@ export default {
       format: 'cjs'
     },
     {
-      file: 'dist/index.js',
+      file: 'dist/index.umd.js',
       format: 'umd',
       name: 'bundleName'
     }
